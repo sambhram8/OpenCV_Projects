@@ -3,10 +3,10 @@ name: Python CI
 on:
   push:
     branches:
-      - check
+      - master
   pull_request:
     branches:
-      - check
+      - master
 
 jobs:
   build:
